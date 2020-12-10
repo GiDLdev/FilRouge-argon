@@ -5,7 +5,7 @@
                 <img src="img/brand/logo1-ac-vect.svg" style="width:150px; height:auto;" alt="Mon site">
             </b-navbar-brand>
 
-            <b-navbar-toggle  style="color:black;" target="nav-collapse">☰</b-navbar-toggle>
+            <b-navbar-toggle  target="nav-collapse">☰</b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
@@ -70,9 +70,10 @@ export default {
 };
 </script>
 <style>
-.navbar
-
-{
+.navbar{
     background-color: black;
+    color:white;
 }
+
+
 </style>
