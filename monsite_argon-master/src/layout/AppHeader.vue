@@ -2,20 +2,20 @@
     <div>
         <b-navbar toggleable="lg" >
             <b-navbar-brand href="#">
-                <img src="img/brand/logo1-ac-vect.svg" style="width:150px; height:auto;" alt="Mon site">
+                <img src="img/brand/logo1-ac-vect.svg" style="width:auto; height:130px;" alt="Mon site">
             </b-navbar-brand>
 
             <b-navbar-toggle  target="nav-collapse">☰</b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav>
-                    <b-nav-item href="#">Accueil</b-nav-item>
-                    <b-nav-item href="#">Boutique</b-nav-item>
-                    <b-nav-item href="#">Service</b-nav-item>
-                    <b-nav-item href="#">Activité</b-nav-item>
-                    <b-nav-item href="#">Ateliers</b-nav-item>
-                    <b-nav-item href="#">Galeries</b-nav-item>
-                    <b-nav-item href="#" disabled>Contact</b-nav-item>
+                <b-navbar-nav >
+                    <b-nav-item href="#" disabled>ACCUEIL</b-nav-item>
+                    <b-nav-item href="#">BOUTIQUE</b-nav-item>
+                    <b-nav-item href="#">SERVICE</b-nav-item>
+                    <b-nav-item href="#">ACTIVITÉ</b-nav-item>
+                    <b-nav-item href="#">ATELIERS</b-nav-item>
+                    <b-nav-item href="#">GALERIES</b-nav-item>
+                    <b-nav-item href="#">CONTACT</b-nav-item>
                 </b-navbar-nav>
 
                 <!-- Right aligned nav items 
