@@ -8,6 +8,7 @@
  import Login from "./views/Login.vue";
  import Register from "./views/Register.vue";
  import Profile from "./views/Profile.vue";
+ import Modals from "./views/components/JavascriptComponents/Modals.vue";
 
  Vue.use(Router);
 
@@ -66,7 +67,16 @@
                  default: Profile,
                  footer: AppFooter
              }
-         }
+         },
+         {
+            path: "/modals",
+            name: "modals",
+            components: {
+                header: AppHeader,
+                default: Modals,
+                footer: AppFooter
+            }
+        }
      ],
      scrollBehavior: to => {
          if (to.hash) {

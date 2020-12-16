@@ -7,6 +7,7 @@
             </fade-transition>
         </main>
         <router-view name="footer"></router-view>
+        <router-view name="modal"></router-view>
     </div>
 </template>
 <script>

@@ -2,20 +2,20 @@
     <div>
         <b-navbar toggleable="lg" >
             <b-navbar-brand href="#">
-                <img src="img/brand/logo1-ac-vect.svg" style="width:auto; height:130px;" alt="Mon site">
+                <img src="img/logo1-ac-vect.svg" style="width:auto; height:135px;" alt="Mon site">
             </b-navbar-brand>
 
             <b-navbar-toggle  target="nav-collapse">☰</b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav >
-                    <b-nav-item href="#" disabled>ACCUEIL</b-nav-item>
-                    <b-nav-item href="#">BOUTIQUE</b-nav-item>
-                    <b-nav-item href="#">SERVICE</b-nav-item>
-                    <b-nav-item href="#">ACTIVITÉ</b-nav-item>
-                    <b-nav-item href="#">ATELIERS</b-nav-item>
-                    <b-nav-item href="#">GALERIES</b-nav-item>
-                    <b-nav-item href="#">CONTACT</b-nav-item>
+                    <b-nav-item class="text-center" href="#" disabled>ACCUEIL<br><img src="img/mobile/mobile-menu-arabesque_fffae4.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">BOUTIQUE<br><img src="img/mobile/mobile-menu-pattern_4e473e.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">ATELIERS<br><img src="img/mobile/mobile-menu-arabesque_4e473e.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">SERVICES<br><img src="img/mobile/mobile-menu-pattern_4e473e.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">GALERIES<br><img src="img/mobile/mobile-menu-arabesque_4e473e.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">ACTIVITÉS<br><img src="img/mobile/mobile-menu-pattern_4e473e.png"></b-nav-item>
+                    <b-nav-item class="text-center" href="#">CONTACT<br><img src="img/mobile/mobile-menu-arabesque_4e473e.png"></b-nav-item>
                 </b-navbar-nav>
 
                 <!-- Right aligned nav items 
@@ -72,7 +72,6 @@ export default {
 <style>
 .navbar{
     background-color: black;
-    color:white;
 }
 
 
