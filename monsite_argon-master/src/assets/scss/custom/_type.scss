@@ -6,21 +6,13 @@ h4,
 h5,
 h6{
 	font-family: $font-family-alt;
-	font-weight: $font-weight-bold;
 }
 
 h3{
 	font-family: $font-family-altbase;
-	font-weight: $font-weight-normal;
 }
 h4{
 	color:rgba(4,3,2, 1);
-}
-
-p {
-	font-size: $paragraph-font-size;
-	font-weight: $paragraph-font-weight;
-	line-height: $paragraph-line-height;
 } 
 
 .lead {

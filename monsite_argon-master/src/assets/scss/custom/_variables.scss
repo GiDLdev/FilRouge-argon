@@ -314,8 +314,6 @@ $transition-collapse:         height .35s ease !default;
 $font-family-base: 'Myriad Pro Regular', sans-serif !default;
 $font-family-basealt: 'Myriad Pro Bold', sans-serif !default;
 $font-family-basealt2: 'Myriad Pro Semi-Bold', sans-serif !default;
-
-
 $font-family-alt: 'Crimson Text Bold', serif !default;
 $font-family-altbase: 'Crimson Text Regular', serif !default;
 
@@ -345,7 +343,7 @@ $h6-font-size:                $font-size-base !default;
 $headings-margin-bottom:      ($spacer / 2);
 $headings-font-family:        inherit !default;
 $headings-font-weight:        $font-weight-normal !default;
-$headings-line-height:        1.4375 !default;
+$headings-line-height:        1.2 !default;
 $headings-color:              rgba(224, 220, 204, 1) !default;
 
 $heading-letter-spacing:      .025em !default;
@@ -374,7 +372,7 @@ $display3-weight:             $font-weight-bold !default;
 $display4-weight:             $font-weight-bold !default;
 $display-line-height:         $headings-line-height !default;
 
-$paragraph-font-size:         0.96rem !default;
+$paragraph-font-size:         1rem !default;
 $paragraph-font-weight:       400 !default;
 $paragraph-line-height:       1.4375 !default;
 

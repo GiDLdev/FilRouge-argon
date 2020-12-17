@@ -1,10 +1,14 @@
 <template>
-    <section>    
-        <img src="img/desktop/angeliquecalfatidotcom_desktop-cover1920x840.jpg">
+    <section>  
+        <div class="ouverture">  
+            <img class="covermob" src="img/tablet/angeliquecalfatidotcom_cover834x829.jpg">
+            <img class="covertabland" src="img/tablet/angeliquecalfatidotcom_desktop-cover1366x897.jpg">
+            <img class="coverdesk" src="img/desktop/angeliquecalfatidotcom_desktop-cover1920x840.jpg">
+        </div>
 
         <div id="bloc-activity">
             <b-container class="bv-example-row"> 
-                <!-- <div id="bloc-actimob">
+                <div id="bloc-actimob">
                     <b-row class="no-gutters">
                         <b-col col="12" sm="12">
                             <h3 class="mobile-p1">Des activités exercées pour les professionnels et les particuliers</h3>
@@ -19,7 +23,7 @@
                             </p>
                         </b-col>
                     </b-row>
-                </div> -->
+                </div> 
                 <div id="bloc-acti123">
                     <b-row class="no-gutters">
                         <h3 class="p1">Des activités exercées pour les professionnels et les particuliers</h3>
@@ -27,17 +31,17 @@
                     <b-row>              
                         <b-col cols="12" md="4" lg="4" xl="4" class="text-left">
                             <h5 class="p2">Costumière de scène, Styliste, Couturière</h5>
-                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br><br><br>
+                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br>
                             <button class="clair" href="#" role="button">EN SAVOIR PLUS &raquo;</button></p><br>                        
                         </b-col>
                         <b-col cols="12" md="4" lg="4" xl="4" class="text-left">
                             <h5 class="p2">Créatrice de chapeaux, coiffes et accessoires</h5>
-                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br><br><br>
+                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br>
                             <button class="clair" href="#" role="button">DÉCOUVRIR &raquo;</button></p><br>       
                         </b-col>
                         <b-col cols="12" md="4" lg="4" xl="4" class="text-left">
                             <h5 class="p2">Formatrice et Animatrice d'ateliers</h5>
-                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br><br><br>
+                            <p class="p3">Lorem elitipsum por il dolor sit amet, consectetur par adipisicing elit, por le incididunt vous camut labore...<br>
                             <button class="clair" href="#" role="button">VOIR LES DATES &raquo;</button></p><br>                       
                         </b-col>              
                     </b-row> 
@@ -138,7 +142,7 @@
                 <b-row>
                     <b-col cols="12" sm="12" md="12" lg="12" xl="12" class="text-left">
                         <ul>
-                            <li><router-link to="/modals"><a href="#0" data-toggle="modal" data-target="#staticBackdrop" title="Contactez-moi"><span class="mailico"></span></a></router-link></li>
+                            <li><router-link to="/modals" data-toggle="modal" data-target="#staticBackdrop" title="Contactez-moi"><span class="mailico"></span></router-link></li>
                             <li><a href="https://www.facebook.com/angelique.calfaticostumiere" title="Suivez-moi sur Facebook" target="_blank" rel="nofollow"><span class="fbico"></span></a></li>
                         </ul>
                     </b-col>
@@ -161,252 +165,6 @@ export default {
 };
 </script>
 <style>
-button{
-    display:inline-block;
-    width:160px;
-    height:46px;
-    font-family: "Myriad Pro";
-    font-weight: 600;
-    font-size: 16px;
-    color:#e0dccc;
-    vertical-align: middle;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: -0.4px;
-    cursor:pointer;
-    transition: all 0.1s linear;
-}
-button.clair{
-    background-color: transparent;
-    border:solid 1px #e0dccc;
-    border-radius: 0;
-}
-button.clair:hover,
-button.clair:active,
-button.clair:focus {
-    background-color: #e0dccc;
-    color:#040302;
-    border:solid 1px #e0dccc;
-}
- #bloc-activity{
-    position :relative;
-    background:url(../../public/img/angeliquecalfatidotcom_motif-n.gif) repeat left top;
-    background-size:8px 8px;
-    width:100%;
-}
-h3.p1{
-    padding-top: 23px;
-    margin-bottom: 46px;
-}
-h5.p2{
-    margin-bottom: 12px;
-}
-#bloc-services{
-    position: relative;
-    background: url(../../public/img/desktop/angeliquecalfatidotcom_arabesque1.png), url(../../public/img/tablet/tablet_arabesque2.png);
-    background-repeat: no-repeat no-repeat;
-    background-size: auto 914px, 150px 132px;
-    background-position-x: left 140px, right 24px;
-    background-position-y: bottom, top 24px;
-    padding-bottom: 69px;
-    background-color: #fffae4;
-    width: 100%;
-    height:auto;
-}
-#modules{
-    width: 100%;
-    margin-bottom: 92px;
-    margin-top:46px;
-}
-#modules ul{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin-left:-15px;
-    margin-right:-15px;
-    padding-left:0;
-}
-#modules li{
-    list-style-type: none;
-}  
-#modules li{
-    display:block;
-    padding-top: 46px;
-    width:160px;
-    height:259px;
-    text-align: center;
-}
-#modules h4{
-    margin-top:12px;
-    margin-bottom:5px;
-}
-#modules p.p5{
-    color:#040302;
-}
-#modules button.red{
-    background-color: #730012;
-    border:solid 1px #730012;
-    font-size: 14px;
-}
-#modules button.red:hover,
-#modules button.red:active,
-#modules button.red:focus {
-    background-color: #fffae4;
-    color:#730012;
-    border:solid 1px #730012;
-}
-#bloc-services #bloc-encadre{
-    height:574px;
-}
-#bloc-services #cadre-encadre{
-    display:block;
-    position:absolute;
-    background: url(../../public/img/angeliquecalfatidotcom_motif-j.gif)repeat; 
-    background-size: 8px 8px;
-    width:100%;
-    height:574px;
-    margin-left:0px;
-}
-#cadre-encadre .encadre{
-    position:relative;
-    height:482px;
-    width:486px;
-    margin-top:46px;
-    margin-left:46px;
-    padding:46px;
-    background-color: #040302;
-}
-.encadre h2{
-    margin-bottom:23px;
-    line-height: 40px;
-}
-.encadre p span.p6tab{
-    display:block;
-    margin-bottom: 46px;
-}
-.encadre p.p6{
-    width:352px;
-}
-#bloc-services .costume1{
-    display: block;
-    position: absolute;
-    width:auto;
-    height:83%;
-    right: 490px;
-    bottom:46px;
-}
-#bloc-services .costume2{
-    display: block;
-    position: absolute;
-    width:auto;
-    height:83%;
-    right: 310px;
-    bottom:46px;
-}
-#bloc-services .costume3{
-    display: block;
-    position: absolute;
-    width:auto;
-    height:85%;
-    bottom:46px;
-    right:20px;
-}
-#bloc-boutique{
-    position: relative;
-    width:100%;
-    height:391px;
-    background: url(../../public/img/angeliquecalfatidotcom_motif-r.gif) repeat left top;
-    background-size: 8px 8px;
-} 
-#bloc-boutique h3{
-    padding-top:23px;
-    letter-spacing: -0.1px;
-}
-#galerie{
-    position:relative;
-    display:inline-block;
-    margin-top:23px;
-    width:100%;
-    height:207px;
-    overflow: hidden;
-}
-#galerie ul{
-    height:207px;
-    width:100%;
-    position:absolute;
-    overflow: hidden;
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content: space-between;
-    overflow-x: scroll;
-}
-#galerie li{
-    list-style: none;
-}
-#galerie img{
-    width:296px;
-    height:207px;
-    margin-right: 20px;
-}
-.barre-contact{
-    position:relative;
-    background-color: #e0dccc;
-    width:100%;
-    height:1px;
-}
-#bloc-contact{
-    position:relative;
-    background: url(../../public/img/angeliquecalfatidotcom_motif-n.gif)repeat; 
-    background-size: 8px 8px;
-    width:100%;
-}
-#bloc-contact ul{
-    margin-bottom: 0px;
-    display:flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-}
-#bloc-contact li{
-    list-style-type: none;
-}
-ul span.mailico{
-    display:inline-block;
-    background: url(../../public/img/mail-icon.svg), rgba(4, 3, 2, 0);
-    background-repeat: no-repeat ;
-    background-position:center;
-    background-size: 93px 50px;
-    border: solid 1px #e0dccc;
-    width:120px;
-    height:120px;
-    margin-top:69px;
-    margin-bottom:69px;
-}
-ul span.fbico{
-    display:inline-block;
-    background: url(../../public/img/logo-fb-icon.svg), rgba(4, 3, 2, 0);
-    background-repeat: no-repeat ;
-    background-position:center;
-    background-size: 35px 65px;
-    border: solid 1px #e0dccc;
-    width:120px;
-    height:120px;
-    margin-top:69px;
-    margin-bottom:69px;
-}
-ul span.mailico:hover,
-ul span.mailico:active {
-    background: url(../../public/img/mail_n-icon.svg), rgba(224, 220, 204, 1);
-    background-repeat: no-repeat ;
-    background-position:center;
-    background-size: 93px 50px;
-}
-ul span.fbico:hover,
-ul span.fbico:active {
-    background: url(../../public/img/logo_fb-n-ico.svg), rgba(224, 220, 204, 1);
-    background-repeat: no-repeat ;
-    background-position:center;
-    background-size: 35px 65px;
-}
 
 
 </style>
