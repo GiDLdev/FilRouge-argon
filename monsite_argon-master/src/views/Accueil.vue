@@ -138,7 +138,7 @@
                 <b-row>
                     <b-col cols="12" sm="12" md="12" lg="12" xl="12" class="text-left">
                         <ul>
-                            <li><a href="#0" data-toggle="modal" data-target="#staticBackdrop" title="Contactez-moi"><span class="mailico"></span></a></li>
+                            <li><router-link to="/modals"><a href="#0" data-toggle="modal" data-target="#staticBackdrop" title="Contactez-moi"><span class="mailico"></span></a></router-link></li>
                             <li><a href="https://www.facebook.com/angelique.calfaticostumiere" title="Suivez-moi sur Facebook" target="_blank" rel="nofollow"><span class="fbico"></span></a></li>
                         </ul>
                     </b-col>
